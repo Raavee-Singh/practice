@@ -1,12 +1,16 @@
 #include<bits/stdc++.h>
 int main(){
-    int marks=23;
-    switch (marks){
-        case(25):
-            std::cout<<"Marks is 25";
-            break;
-        case(23):
-            std::cout<<"Marks is 23";
-            break;
+    char ch;
+    std::cout<<"Enter: ";
+    std::cin>>ch;
+    if(ch>='a'&&ch<='z'){
+        std::cout<<"Lowercase"<<std::endl;
     }
+    else if(ch>='A'&&ch<='Z'){
+        std::cout<<"Uppercase"<<std::endl;
+    }
+    else if(ch>='0'&&ch<='9'){
+        std::cout<<"Numeric"<<std::endl;
+    }
+    
 }
