@@ -5,7 +5,7 @@ int main(){
     std::cout<<"Enter the value of n:";
     std::cin>>n;
     while(i<n){
-        if(n%2==0){
+        if(n%i==0){
             std::cout<<"not prime"<<std::endl;
             break;
         }
